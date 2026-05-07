@@ -1,0 +1,19 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Helvetica neue', sans-serif;
+}
+
+html,body{
+  height: 100%;
+  width: 100%;
+}
+.card{
+  background-color: rgb(187, 65, 65);
+  color:#fff;
+  border-radius: 10px;
+  margin: 1.5rem;
+  padding: 1.5rem;
+
+}
