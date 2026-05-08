@@ -26,11 +26,11 @@ const SearchBar = () => {
                         setText(e.target.value)
                     }}
                     required
-                    className='w-full border-2 px-6 py-3 text-xl rounded outline-none'
+                    className='w-full border-2 px-6 py-3 text-xl rounded-xl outline-none'
                     type="text"
                     placeholder='Search anything...' />
 
-                <button className='active:scale-95 cursor-pointer border-2 px-6 py-3 text-xl rounded outline-none'>Search</button>
+                <button className='active:scale-95 cursor-pointer border-2 px-6 py-3 text-xl rounded-xl outline-none'>Search</button>
             </form>
         </div>
     )

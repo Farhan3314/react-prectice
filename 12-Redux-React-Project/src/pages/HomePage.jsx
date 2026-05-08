@@ -7,7 +7,7 @@ const HomePage = () => {
     const { query } = useSelector((store) => store.search)
 
     return (
-        <div>
+        <div className='w-full min-h-screen bg-white'>
 
             <SearchBar />
 
