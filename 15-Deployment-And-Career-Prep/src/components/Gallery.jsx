@@ -1,5 +1,5 @@
 import { useEffect, useState } from "react";
-import fetchImages from "../Api/pexels";
+import fetchImages from "../api/pexels";
 
 const Gallery = () => {
     const [images, setImages] = useState([]);
